@@ -129,7 +129,7 @@ Head-to-head, fractional points, negative points enabled.
 - **Trade Reject Window:** 7 days from acceptance
 - **Max Trades per Season:** No maximum
 - **Trade Deadline:** Sunday of Week 11 (November 22, 2025 for the 2025 season)
-- **Draft Pick Trades:** Allowed; future-year picks may be traded subject to commissioner approval to ensure both managers will be in the league the following season.
+- **Draft Pick Trades:** Current-year picks only. Future-year draft picks may **not** be traded.
 - **Collusion:** The commissioner may reverse any trade believed in good faith to constitute collusion. The commissioner will not unilaterally reverse trades that are merely lopsided; veto authority is reserved for collusion or clear violations of league integrity.
 
 ## 8. Regular Season
