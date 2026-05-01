@@ -1,0 +1,40 @@
+site_name: Mariners Fans Anonymous
+site_description: League by-laws, history, and traditions for the Mariners Fans Anonymous Fantasy Football League.
+repo_url: https://github.com/tefirman/mariners-fans-anonymous
+repo_name: tefirman/mariners-fans-anonymous
+
+theme:
+  name: material
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: teal
+      accent: amber
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal
+      accent: amber
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.top
+    - content.code.copy
+    - toc.follow
+
+nav:
+  - Home: index.md
+  - By-Laws: bylaws.md
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
