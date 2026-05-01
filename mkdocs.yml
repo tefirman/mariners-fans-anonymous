@@ -30,6 +30,8 @@ theme:
 nav:
   - Home: index.md
   - By-Laws: bylaws.md
+  - Champions: champions.md
+  - The Many Mile: many-mile.md
 
 markdown_extensions:
   - admonition
