@@ -113,6 +113,10 @@ Head-to-head, fractional points, negative points enabled.
 - **Draft Pick Trading:** Allowed
 - **Post-Draft Undrafted Players:** Free agents (no automatic waivers)
 
+### Draft Penalties
+
+- **Duplicate Pick:** If a manager announces a player who has already been drafted by another team, that manager must shotgun a beer before the draft proceeds. League-approved substitutions (e.g., hot dog, soda) are permitted on the same terms as the Many Mile.
+
 ## 6. Waivers and Free Agency
 
 - **Waiver Type:** FAAB (Free Agent Acquisition Budget) with continual rolling list as tiebreaker
@@ -152,6 +156,11 @@ Head-to-head, fractional points, negative points enabled.
 - **Week 17 (Championship + 3rd-Place Game):** Semifinal winners play for 1st/2nd; semifinal losers play for 3rd/4th.
 
 Eliminated teams are **not** locked; managers are expected to set lineups in good faith for the duration of the season.
+
+### Champion's Honors
+
+- **Trophy:** The league champion is awarded the **Warren Wood Memorial Trophy** (so named despite Warren still being very much alive). The trophy stays with the reigning champion for the duration of the year and is returned to the league at the following season's draft for presentation to the new champion.
+- **Champion's Speech:** The reigning champion delivers a speech at the next season's draft prior to the start of picks.
 
 ## 10. Loser's Bracket and the Many Mile
 
