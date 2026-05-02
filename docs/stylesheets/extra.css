@@ -1,0 +1,18 @@
+/* Mariners-inspired palette: teal primary, navy accent */
+
+:root {
+  --mfa-navy: #0C2C56;
+  --mfa-navy-light: #4A7BB8;
+}
+
+[data-md-color-scheme="default"] {
+  --md-accent-fg-color: var(--mfa-navy);
+  --md-accent-fg-color--transparent: rgba(12, 44, 86, 0.1);
+  --md-typeset-a-color: var(--mfa-navy);
+}
+
+[data-md-color-scheme="slate"] {
+  --md-accent-fg-color: var(--mfa-navy-light);
+  --md-accent-fg-color--transparent: rgba(74, 123, 184, 0.1);
+  --md-typeset-a-color: var(--mfa-navy-light);
+}
