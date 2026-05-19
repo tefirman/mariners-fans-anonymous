@@ -1,4 +1,6 @@
-# Mariners Fans Anonymous
+![Mariners Fans Anonymous](assets/logo.png){ .hero-logo }
+
+# Welcome
 
 The official site of the **Mariners Fans Anonymous Fantasy Football League**.
 
