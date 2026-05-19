@@ -6,6 +6,8 @@ copyright: Mariners Fans Anonymous &middot; Est. 2003
 
 theme:
   name: material
+  logo: assets/logo.png
+  favicon: assets/logo.png
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
