@@ -16,3 +16,12 @@
   --md-accent-fg-color--transparent: rgba(74, 123, 184, 0.1);
   --md-typeset-a-color: var(--mfa-navy-light);
 }
+
+/* Centered hero logo on the homepage */
+.hero-logo {
+  display: block;
+  margin: 1rem auto 1.5rem;
+  width: 70%;
+  max-width: 320px;
+  height: auto;
+}
