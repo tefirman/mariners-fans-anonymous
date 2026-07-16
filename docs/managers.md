@@ -24,6 +24,7 @@ The 12 managers of the Mariners Fans Anonymous league.
 Managers who have moved on from the league.
 
 | Manager | Championships |
+|---------|--------|
 | Warren Wood | 2 |
 | Samuel Sturza | 1 |
 | Rich/Joel Firman | 0 |
