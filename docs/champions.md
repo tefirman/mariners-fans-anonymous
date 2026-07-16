@@ -9,41 +9,44 @@ A running ledger of every league finalist since the 2003 inaugural season.
 
 | Year | 1st Place | 2nd Place | 3rd Place |
 |------|-----------|-----------|-----------|
-| 2025 | Wankstas | Gibbs Me Head | 69ers |
-| 2024 | Wankstas | CeeDeez Nuts | Herbert's Hero's |
-| 2023 | Chubba Bubba | Turn Your Head & Goff | 69ers |
-| 2022 | Jalen and Jefferson's | The Algorithm | King Henry |
-| 2021 | Judge Jeudy | All About the D Johnson | Crotch de Fuego |
-| 2020 | Wankstas | Sunday ShNoz | The Sofa Kings |
-| 2019 | The Sofa Kings | Football Cream | All About the D |
-| 2018 | My ball Zach Ertz! | The Sofa Kings | Rollin' with Mahomes |
-| 2017 | Captain Kirk | My ball Zach Ertz! | Wankstas |
-| 2016 | Suck on my tyRod | Jones-ing 4 Luck | Wankstas |
-| 2015 | Greg the Third Leg | Benjamin Button Hook | All About the D |
-| 2014 | Lynch'n Kyle's Butt | Spider 2 Y Banana | The Big Heads |
-| 2013 | The Big Heads | Wankstas | EZ Breesy beautiful |
-| 2012 | The Big Heads | THE playBOOK OF ELI | Teach MeHowTo Dougie |
-| 2011 | Crotch de Fuego | The Sofa Kings | Wankstas |
-| 2010 | The Sofa Kings | 69ers | Summer Brees |
-| 2009 | Wankstas | Chassidy Belt | 69ers |
-| 2008 | Uni-Browed Commandos | The Sofa Kings | The Arc's |
-| 2007 | The Big Heads | Team Adrian Peterson | Team TO |
-| 2006 | JoshBrown is my hero | 69ers | Uni-Browed COMMANDOS |
-| 2005 | Toothless Wonders | The Hearst-Downers | 69ers |
-| 2004 | WW44 | Wankstas | Wolves |
-| 2003 | ww44 | Wankstas | Filthy Boss Guys |
+| 2025 | AJ Fraiman | Drew Sutton | Aaron Many |
+| 2024 | AJ Fraiman | Kyle Stokes | Drew Sutton |
+| 2023 | Connor Parish | Marc Gordon | Aaron Many |
+| 2022 | Tyler Teton | Taylor Firman | Kyle Stokes |
+| 2021 | Kyle Stokes | David Dehart | Trevor Wood |
+| 2020 | AJ Fraiman | Luke Kartes | Drew Sutton |
+| 2019 | Drew Sutton | Mac Brooks | David Dehart |
+| 2018 | Tyler Teton | Drew Sutton | Tyler Teton |
+| 2017 | Kyle Stokes | Tyler Teton | AJ Fraiman |
+| 2016 | Marc Gordon | Tyler Teton | AJ Fraiman |
+| 2015 | Kyle Stokes | Connor Parish | David Dehart |
+| 2014 | Marc Gordon | Kyle Stokes | Taylor Firman |
+| 2013 | Taylor Firman | AJ Fraiman | Aaron Many |
+| 2012 | Taylor Firman | Luke Kartes | Marc Gordon |
+| 2011 | Trevor Wood | Drew Sutton | AJ Fraiman |
+| 2010 | Drew Sutton | Aaron Many | Kyle Stokes |
+| 2009 | AJ Fraiman | Kyle Stokes | Aaron Many |
+| 2008 | Samuel Sturza | Drew Sutton | Marc Gordon |
+| 2007 | Taylor Firman | Tyler Teton | Drew Sutton |
+| 2006 | Kyle Stokes | Aaron Many | Samuel Sturza |
+| 2005 | Taylor Firman | Marc Gordon | Aaron Many |
+| 2004 | Warren Wood | AJ Fraiman | Rich/Joel Firman |
+| 2003 | Warren Wood | AJ Fraiman | Taylor Firman |
 
-## Title Counts by Team Name
+## Title Counts
 
-Counting championships by the team name used in that year's standings (note that managers may have rebranded across seasons; this leaderboard will become more meaningful once manager mapping is filled in):
+Counting championships by manager:
 
-| Titles | Team |
+| Titles | Champion |
 |--------|------|
-| 4 | Wankstas |
-| 3 | The Big Heads |
-| 2 | The Sofa Kings |
-| 2 | WW44 / ww44 |
-| 1 | Chubba Bubba, Jalen and Jefferson's, Judge Jeudy, My ball Zach Ertz!, Captain Kirk, Suck on my tyRod, Greg the Third Leg, Lynch'n Kyle's Butt, Crotch de Fuego, Uni-Browed Commandos, JoshBrown is my hero, Toothless Wonders |
+| 4 | AJ Fraiman |
+| 4 | Kyle Stokes |
+| 4 | Taylor Firman |
+| 2 | Drew Sutton |
+| 2 | Marc Gordon |
+| 2 | Tyler Teton |
+| 2 | Warren Wood |
+| 1 | Connor Parish, Samuel Sturza, Trevor Wood |
 
 ---
 

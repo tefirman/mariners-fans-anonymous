@@ -2,36 +2,29 @@
 
 The 12 managers of the Mariners Fans Anonymous league.
 
-!!! note "Roster being assembled"
-    This page is a placeholder. Manager profiles, team-name histories, and career championship totals will be filled in by the commissioner before this section is finalized.
-
 ## Current Roster
 
-| Manager | Current Team Name | Joined | Championships | Many Mile Appearances |
-|---------|-------------------|--------|---------------|-----------------------|
-| _TBD_ | _TBD_ | _TBD_ | _TBD_ | _TBD_ |
-| _TBD_ | _TBD_ | _TBD_ | _TBD_ | _TBD_ |
-| _TBD_ | _TBD_ | _TBD_ | _TBD_ | _TBD_ |
-| _TBD_ | _TBD_ | _TBD_ | _TBD_ | _TBD_ |
-| _TBD_ | _TBD_ | _TBD_ | _TBD_ | _TBD_ |
-| _TBD_ | _TBD_ | _TBD_ | _TBD_ | _TBD_ |
-| _TBD_ | _TBD_ | _TBD_ | _TBD_ | _TBD_ |
-| _TBD_ | _TBD_ | _TBD_ | _TBD_ | _TBD_ |
-| _TBD_ | _TBD_ | _TBD_ | _TBD_ | _TBD_ |
-| _TBD_ | _TBD_ | _TBD_ | _TBD_ | _TBD_ |
-| _TBD_ | _TBD_ | _TBD_ | _TBD_ | _TBD_ |
-| _TBD_ | _TBD_ | _TBD_ | _TBD_ | _TBD_ |
-
-## Team Name History
-
-A mapping of historical team names to the manager who used them. Once filled in, this will turn the [Champions](champions.md) leaderboard into real career championship totals.
-
-| Manager | Team Names Used Over the Years |
-|---------|--------------------------------|
-| _TBD_ | _TBD_ |
+| Manager | Joined | Championships | Many Mile Appearances |
+|---------|--------|---------------|-----------------------|
+| AJ Fraiman | 2003 | 4 | _TBD_ |
+| Aaron Many | 2003 | 0 | _TBD_ |
+| Connor Parish | 2003 | 1 | _TBD_ |
+| David Dehart | 2015 | 0 | _TBD_ |
+| Drew Sutton | 2003 | 2 | _TBD_ |
+| Kyle Stokes | 2003 | 4 | _TBD_ |
+| Luke Kartes | 2003 | 0 | _TBD_ |
+| Mac Brooks | 2015 | 0 | _TBD_ |
+| Marc Gordon | 2003 | 2 | _TBD_ |
+| Taylor Firman | 2003 | 4 | _TBD_ |
+| Trevor Wood | 2003 | 1 | _TBD_ |
+| Tyler Teton | 2003 | 2 | _TBD_ |
 
 ## Past Managers
 
 Managers who have moved on from the league.
 
-_To be filled in._
+| Manager | Championships |
+| Warren Wood | 2 |
+| Samuel Sturza | 1 |
+| Rich/Joel Firman | 0 |
+| Connor O'Brien | 0 |
