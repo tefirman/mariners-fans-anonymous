@@ -47,4 +47,4 @@ Counting championships by manager:
 
 ---
 
-*23 seasons of football. 16 unique champion teams.*
+*23 seasons of football. 10 unique champions. 4 consistent losers.*
