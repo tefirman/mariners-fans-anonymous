@@ -2,9 +2,6 @@
 
 A running ledger of every league finalist since the 2003 inaugural season.
 
-!!! note
-    Team names reflect what was used in Yahoo at the time. Manager-to-team mapping will be added in a future update.
-
 ## Final Standings by Year
 
 | Year | 1st Place | 2nd Place | 3rd Place |
