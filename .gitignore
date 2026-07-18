@@ -3,3 +3,8 @@ __pycache__/
 *.pyc
 .venv/
 venv/
+.venv-build/
+.DS_Store
+
+# Personal notes
+notes/
