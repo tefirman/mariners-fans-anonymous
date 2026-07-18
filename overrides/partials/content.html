@@ -1,0 +1,92 @@
+{% if "material/tags" in config.plugins and tags %}
+  {% include "partials/tags.html" %}
+{% endif %}
+{% include "partials/actions.html" %}
+
+{% if page.file.src_path == "index.md" %}
+
+  <section class="mfa-hero">
+    <img src="{{ 'assets/logo.png' | url }}" alt="Mariners Fans Anonymous crest" class="mfa-hero__crest">
+    <h1 class="mfa-hero__title">Mariners Fans Anonymous</h1>
+    <p class="mfa-hero__subtitle">Fantasy Football League</p>
+    <p class="mfa-hero__est">Est. 2003</p>
+  </section>
+
+  <section class="mfa-stats">
+    <div class="mfa-stat-card">
+      <div class="mfa-stat-card__value">23</div>
+      <div class="mfa-stat-card__label">Seasons</div>
+    </div>
+    <div class="mfa-stat-card">
+      <div class="mfa-stat-card__value">12</div>
+      <div class="mfa-stat-card__label">Managers</div>
+    </div>
+    <div class="mfa-stat-card">
+      <div class="mfa-stat-card__value">10</div>
+      <div class="mfa-stat-card__label">Unique Champions</div>
+    </div>
+  </section>
+
+  <h2 class="mfa-section-heading">Quick Links</h2>
+  <section class="mfa-quicklinks">
+    <a class="mfa-quicklink-card" href="{{ 'bylaws/' | url }}">
+      <span class="mfa-quicklink-card__badge mfa-quicklink-card__badge--teal">&sect;</span>
+      <span class="mfa-quicklink-card__body">
+        <span class="mfa-quicklink-card__title">League By-Laws</span>
+        <span class="mfa-quicklink-card__desc">Rules, scoring, payouts, and traditions</span>
+      </span>
+    </a>
+    <a class="mfa-quicklink-card" href="{{ 'champions/' | url }}">
+      <span class="mfa-quicklink-card__badge mfa-quicklink-card__badge--gold">C</span>
+      <span class="mfa-quicklink-card__body">
+        <span class="mfa-quicklink-card__title">Champions</span>
+        <span class="mfa-quicklink-card__desc">Hall of fame from 2003 onward</span>
+      </span>
+    </a>
+    <a class="mfa-quicklink-card" href="{{ 'managers/' | url }}">
+      <span class="mfa-quicklink-card__badge mfa-quicklink-card__badge--navy">M</span>
+      <span class="mfa-quicklink-card__body">
+        <span class="mfa-quicklink-card__title">Managers</span>
+        <span class="mfa-quicklink-card__desc">The 12 managers and their team-name histories</span>
+      </span>
+    </a>
+    <a class="mfa-quicklink-card" href="{{ 'many-mile/' | url }}">
+      <span class="mfa-quicklink-card__badge mfa-quicklink-card__badge--teal">&asymp;</span>
+      <span class="mfa-quicklink-card__body">
+        <span class="mfa-quicklink-card__title">Many Mile</span>
+        <span class="mfa-quicklink-card__desc">Annual Beer Mile records</span>
+      </span>
+    </a>
+  </section>
+
+{% elif page.file.src_path == "bylaws.md" %}
+
+  <div class="mfa-bylaws-layout">
+    <aside class="mfa-bylaws-toc no-print">
+      <div class="mfa-bylaws-toc__label">Contents</div>
+      {% for toc_item in page.toc %}
+        {% for section in toc_item.children %}
+          <a class="mfa-bylaws-toc__link" href="{{ section.url }}">{{ section.title }}</a>
+        {% endfor %}
+      {% endfor %}
+    </aside>
+    <div class="mfa-bylaws-content">
+      {% if "\x3ch1" not in page.content %}
+        <h1>{{ page.title | d(config.site_name, true)}}</h1>
+      {% endif %}
+      {{ page.content }}
+    </div>
+  </div>
+
+{% else %}
+
+  {% if "\x3ch1" not in page.content %}
+    <h1>{{ page.title | d(config.site_name, true)}}</h1>
+  {% endif %}
+  {{ page.content }}
+
+{% endif %}
+
+{% include "partials/source-file.html" %}
+{% include "partials/feedback.html" %}
+{% include "partials/comments.html" %}

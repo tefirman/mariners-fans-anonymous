@@ -1,27 +1,651 @@
-/* Mariners-inspired palette: teal primary, navy accent */
+/* Mariners Fans Anonymous — design tokens (navy / teal / gold, Oswald + Work Sans) */
 
-:root {
-  --mfa-navy: #0C2C56;
-  --mfa-navy-light: #4A7BB8;
-}
-
+:root,
 [data-md-color-scheme="default"] {
-  --md-accent-fg-color: var(--mfa-navy);
-  --md-accent-fg-color--transparent: rgba(12, 44, 86, 0.1);
-  --md-typeset-a-color: var(--mfa-navy);
+  --mfa-bg: #F7F5EF;
+  --mfa-surface: #FFFFFF;
+  --mfa-surface-alt: #F0EDE4;
+  --mfa-text: #1A1F26;
+  --mfa-muted: #5B6472;
+  --mfa-border: #E2DDD0;
+  --mfa-navy: #0C2C56;
+  --mfa-teal: #1D6F6A;
+  --mfa-gold: #B8923F;
+  --mfa-table-head-bg: var(--mfa-navy);
+  --mfa-table-head-fg: #FFFFFF;
 }
 
 [data-md-color-scheme="slate"] {
-  --md-accent-fg-color: var(--mfa-navy-light);
-  --md-accent-fg-color--transparent: rgba(74, 123, 184, 0.1);
-  --md-typeset-a-color: var(--mfa-navy-light);
+  --mfa-bg: #081D3B;
+  --mfa-surface: #0F2A4E;
+  --mfa-surface-alt: #123055;
+  --mfa-text: #F2EFE6;
+  --mfa-muted: #B9C2D0;
+  --mfa-border: #1E3A63;
+  --mfa-navy: #7FA8DE;
+  --mfa-teal: #5FBFB3;
+  --mfa-gold: #D9BC7A;
+  --mfa-table-head-bg: #051230;
+  --mfa-table-head-fg: #F2EFE6;
 }
 
-/* Centered hero logo on the homepage */
+/* Wire tokens into Material's palette so links, accents, and header match */
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color: var(--mfa-navy);
+  --md-accent-fg-color: var(--mfa-teal);
+  --md-accent-fg-color--transparent: rgba(29, 111, 106, 0.1);
+  --md-typeset-a-color: var(--mfa-teal);
+  --md-default-bg-color: var(--mfa-bg);
+  --md-default-fg-color: var(--mfa-text);
+  --md-default-fg-color--light: var(--mfa-muted);
+  --md-footer-bg-color: var(--mfa-navy);
+  --md-footer-fg-color: #FFFFFF;
+}
+
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: var(--mfa-surface);
+  --md-accent-fg-color: var(--mfa-teal);
+  --md-accent-fg-color--transparent: rgba(95, 191, 179, 0.1);
+  --md-typeset-a-color: var(--mfa-teal);
+  --md-default-bg-color: var(--mfa-bg);
+  --md-default-fg-color: var(--mfa-text);
+  --md-default-fg-color--light: var(--mfa-muted);
+  --md-footer-bg-color: var(--mfa-navy);
+  --md-footer-fg-color: var(--mfa-bg);
+}
+
+/* Typography */
+body,
+.md-typeset {
+  font-family: 'Work Sans', sans-serif;
+}
+
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3,
+.md-typeset h4,
+.md-header__title,
+.md-nav__title,
+.md-tabs__link {
+  font-family: 'Oswald', sans-serif;
+}
+
+.md-typeset h1 {
+  font-weight: 700;
+  color: var(--mfa-navy);
+}
+
+.md-typeset h2 {
+  font-weight: 600;
+  color: var(--mfa-text);
+}
+
+.md-typeset h3 {
+  font-weight: 500;
+}
+
+/* Header / nav */
+.md-header {
+  background-color: var(--mfa-surface);
+  color: var(--mfa-text);
+  border-bottom: 1px solid var(--mfa-border);
+  box-shadow: none;
+}
+
+.md-header__title,
+.md-header__topic {
+  color: var(--mfa-navy) !important;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+.md-header__button.md-logo img,
+.md-header__button.md-logo svg {
+  height: 2rem;
+}
+
+.md-header__title {
+  flex: 0 0 auto;
+  width: 270px;
+}
+
+/* Inline top nav (overrides/partials/header.html) — same row as logo/title */
+.mfa-header-nav {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  gap: 2px;
+  list-style: none;
+  margin: 0 0 0 16px;
+  padding: 0;
+}
+
+.mfa-header-nav .md-tabs__item {
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+
+.mfa-header-nav .md-tabs__link {
+  display: inline-flex;
+  align-items: center;
+  height: 36px;
+  margin-top: 0;
+  padding: 0 10px;
+  border-radius: 18px;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--mfa-text);
+  opacity: 1;
+  white-space: nowrap;
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+.mfa-header-nav .md-tabs__link:hover {
+  color: var(--mfa-navy);
+}
+
+.mfa-header-nav .md-tabs__item--active .md-tabs__link {
+  background-color: var(--mfa-navy);
+  color: #fff !important;
+}
+
+@media (max-width: 76.1875em) {
+  .mfa-header-nav {
+    display: none;
+  }
+}
+
+/* Right TOC rail — never used, no equivalent in the design */
+.md-sidebar--secondary,
+.md-sidebar--secondary:not([hidden]) {
+  display: none !important;
+}
+
+/* Left page-tree sidebar — nav state lives in the header pills on desktop;
+   keep it as the mobile drawer's content (see .mfa-header-nav breakpoint) */
+@media (min-width: 76.25em) {
+  .md-sidebar--primary,
+  .md-sidebar--primary:not([hidden]) {
+    display: none !important;
+  }
+}
+
+.md-grid {
+  max-width: 61rem;
+}
+
+[data-md-color-scheme="slate"] .md-tabs__link--active {
+  color: var(--mfa-bg) !important;
+}
+
+/* Palette toggle button */
+.md-header__button[for^="__palette"] {
+  border-radius: 50%;
+  border: 1px solid var(--mfa-border);
+  background: var(--mfa-surface-alt);
+}
+
+/* Content surface */
+.md-main,
+.md-content {
+  background-color: var(--mfa-bg);
+}
+
+.md-footer {
+  font-family: 'Work Sans', sans-serif;
+}
+
+/* selection + links */
+.md-typeset a {
+  color: var(--mfa-teal);
+}
+
+.md-typeset a:hover {
+  color: var(--mfa-gold);
+}
+
+::selection {
+  background: var(--mfa-gold);
+  color: #fff;
+}
+
+/* ---------- Home hero + quick links (see overrides/partials/content.html) ---------- */
+
+.mfa-hero {
+  text-align: center;
+  padding: 24px 0 40px;
+}
+
+.mfa-hero__crest {
+  width: 160px;
+  height: 160px;
+  object-fit: contain;
+  margin-bottom: 20px;
+}
+
+.mfa-hero__title {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  margin: 0 0 8px;
+  color: var(--mfa-navy);
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+}
+
+.mfa-hero__subtitle {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 17px;
+  color: var(--mfa-muted);
+  margin: 0 0 4px;
+}
+
+.mfa-hero__est {
+  font-family: 'Oswald', sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.12em;
+  color: var(--mfa-gold);
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.mfa-stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin: 0 0 48px;
+}
+
+.mfa-stat-card {
+  background: var(--mfa-surface);
+  border: 1px solid var(--mfa-border);
+  border-radius: 6px;
+  padding: 28px 16px;
+  text-align: center;
+}
+
+.mfa-stat-card__value {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  color: var(--mfa-teal);
+}
+
+.mfa-stat-card__label {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 13px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--mfa-muted);
+  margin-top: 4px;
+}
+
+.mfa-section-heading {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  color: var(--mfa-navy);
+  margin: 0 0 18px;
+}
+
+.mfa-quicklinks {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
+  margin-bottom: 8px;
+}
+
+.mfa-quicklink-card {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+  background: var(--mfa-surface);
+  border: 1px solid var(--mfa-border);
+  border-radius: 6px;
+  padding: 22px;
+  color: var(--mfa-text) !important;
+  text-decoration: none !important;
+  transition: border-color 0.15s ease;
+}
+
+.mfa-quicklink-card:hover {
+  border-color: var(--mfa-teal);
+}
+
+.mfa-quicklink-card__badge {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.mfa-quicklink-card__badge--teal {
+  background: var(--mfa-teal);
+}
+
+.mfa-quicklink-card__badge--gold {
+  background: var(--mfa-gold);
+}
+
+.mfa-quicklink-card__badge--navy {
+  background: var(--mfa-navy);
+}
+
+.mfa-quicklink-card__body {
+  display: flex;
+  flex-direction: column;
+}
+
+.mfa-quicklink-card__title {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: var(--mfa-text);
+  margin-bottom: 4px;
+}
+
+.mfa-quicklink-card__desc {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 14px;
+  color: var(--mfa-muted);
+  line-height: 1.4;
+}
+
+@media (max-width: 600px) {
+  .mfa-stats,
+  .mfa-quicklinks {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ---------- By-Laws sticky TOC layout (see overrides/partials/content.html) ---------- */
+
+.mfa-bylaws-layout {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  gap: 40px;
+  align-items: start;
+}
+
+.mfa-bylaws-toc {
+  position: sticky;
+  top: 4rem;
+  align-self: start;
+}
+
+.mfa-bylaws-toc__label {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--mfa-muted);
+  margin-bottom: 10px;
+}
+
+.mfa-bylaws-toc__link {
+  display: block;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 13.5px;
+  color: var(--mfa-text) !important;
+  text-decoration: none !important;
+  padding: 5px 0 5px 10px;
+  border-left: 2px solid transparent;
+}
+
+.mfa-bylaws-toc__link:hover {
+  color: var(--mfa-teal) !important;
+  border-left-color: var(--mfa-teal);
+}
+
+/* Status banner ("**Status:** Draft for league review...") — first paragraph after the H1 */
+.mfa-bylaws-content > h1 + p {
+  display: inline-block;
+  background: var(--mfa-gold);
+  color: #fff;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 20px;
+  padding: 7px 18px;
+  margin: 0 0 24px;
+}
+
+.mfa-bylaws-content > h1 + p strong {
+  font-weight: 700;
+}
+
+.mfa-bylaws-content h2 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  background: var(--mfa-surface);
+  border: 1px solid var(--mfa-border);
+  border-radius: 8px 8px 0 0;
+  margin: 0 0 0;
+  padding: 18px 24px;
+  border-bottom: none;
+}
+
+.mfa-bylaws-content h2 + h3,
+.mfa-bylaws-content h2 + p,
+.mfa-bylaws-content h2 + ul,
+.mfa-bylaws-content h2 + .md-typeset__scrollwrap {
+  margin-top: 0;
+}
+
+/* Group each H2's following content in a bordered "card" until the next H2/hr */
+.mfa-bylaws-content h2 {
+  scroll-margin-top: 5rem;
+}
+
+.mfa-bylaws-content h3,
+.mfa-bylaws-content p,
+.mfa-bylaws-content ul,
+.mfa-bylaws-content ol,
+.mfa-bylaws-content .md-typeset__scrollwrap {
+  background: var(--mfa-surface);
+  border-left: 1px solid var(--mfa-border);
+  border-right: 1px solid var(--mfa-border);
+  padding-left: 24px;
+  padding-right: 24px;
+  margin: 0;
+}
+
+.mfa-bylaws-content p,
+.mfa-bylaws-content ul,
+.mfa-bylaws-content ol {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.md-typeset .mfa-bylaws-content ul,
+.md-typeset .mfa-bylaws-content ol {
+  margin-left: 0;
+}
+
+.mfa-bylaws-content .md-typeset__scrollwrap {
+  display: block;
+  width: 100%;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  box-sizing: border-box;
+}
+
+.mfa-bylaws-content .md-typeset__table {
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.mfa-bylaws-content .md-typeset__table table {
+  width: 100%;
+  border: none;
+}
+
+/* Close each section's card: the element right before the next §-heading, or the very last element */
+.mfa-bylaws-content > *:has(+ h2),
+.mfa-bylaws-content > *:last-child {
+  border-bottom: 1px solid var(--mfa-border);
+  border-radius: 0 0 8px 8px;
+  padding-bottom: 22px;
+  margin-bottom: 16px;
+}
+
+.mfa-bylaws-content hr {
+  display: none;
+}
+
+.mfa-bylaws-content h3 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--mfa-muted);
+  padding-top: 18px;
+  padding-bottom: 0;
+}
+
+@media (max-width: 760px) {
+  .mfa-bylaws-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .mfa-bylaws-toc {
+    position: static;
+  }
+}
+
+@media print {
+  .mfa-bylaws-toc {
+    display: none;
+  }
+
+  .mfa-bylaws-layout {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ---------- Tables (By-Laws, Champions, Managers, Many Mile) ---------- */
+
+.md-typeset__table {
+  display: block;
+}
+
+.md-typeset table:not([class]) {
+  display: table;
+  border: 1px solid var(--mfa-border);
+  border-radius: 8px;
+  overflow: hidden;
+  border-collapse: separate;
+  border-spacing: 0;
+  width: 100%;
+  table-layout: fixed;
+  max-width: 100%;
+}
+
+.md-typeset table:not([class]) th {
+  background-color: var(--mfa-table-head-bg);
+  color: var(--mfa-table-head-fg);
+  font-family: 'Work Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  padding: 10px 14px;
+  border: none;
+}
+
+.md-typeset table:not([class]) td {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 14px;
+  padding: 10px 14px;
+  border-bottom: 1px solid var(--mfa-border);
+  border-right: none;
+  border-left: none;
+  border-top: none;
+}
+
+.md-typeset table:not([class]) tr:nth-child(even) {
+  background-color: var(--mfa-surface-alt);
+}
+
+.md-typeset table:not([class]) tr:last-child td {
+  border-bottom: none;
+}
+
+/* Right-align numeric/points columns (Scoring tables) */
+.mfa-bylaws-content table td:last-child,
+.mfa-bylaws-content table th:last-child {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Champions page: bold gold 1st-place column (4-col Final Standings table only) */
+.md-typeset table:not([class]):has(th:first-child:nth-last-child(4)) td:nth-child(2) {
+  font-weight: 600;
+  color: var(--mfa-gold);
+}
+
+/* ---------- Admonition ("Records Wanted") — dashed gold, no left bar ---------- */
+
+.md-typeset .admonition,
+.md-typeset details {
+  border: 1px dashed var(--mfa-gold);
+  border-left: 1px dashed var(--mfa-gold);
+  border-radius: 6px;
+  background-color: var(--mfa-surface);
+  box-shadow: none;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.md-typeset .admonition-title,
+.md-typeset summary {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--mfa-gold);
+  background-color: transparent;
+}
+
+.md-typeset .admonition-title::before,
+.md-typeset summary::before {
+  background-color: var(--mfa-gold);
+}
+
+/* Centered hero logo (fallback if used outside overridden homepage) */
 .hero-logo {
   display: block;
   margin: 1rem auto 1.5rem;
   width: 70%;
   max-width: 320px;
   height: auto;
+}
+
+/* Print */
+@media print {
+  .md-header,
+  .md-tabs,
+  .md-sidebar,
+  .md-footer {
+    display: none !important;
+  }
 }

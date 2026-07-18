@@ -1,4 +1,4 @@
-# The Many Mile
+# Many Mile
 
 The annual Beer Mile run by the previous season's loser's-bracket finalist. See [§10 of the by-laws](bylaws.md#10-losers-bracket-and-the-many-mile) for the full rules.
 
