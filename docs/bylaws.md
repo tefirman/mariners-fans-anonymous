@@ -108,7 +108,7 @@ Head-to-head, fractional points, negative points enabled.
 ## 5. Draft
 
 - **Type:** Offline (in-person), snake format
-- **Date:** Held annually on the Saturday before the NFL season opener (2025 draft: Sat, Aug 30, 6:15 PM MDT)
+- **Date:** Not fixed; the date and location are selected each year with the goal of accommodating the most in-person attendance. Typically falls within a few weeks of the start of the season, usually mid-to-late August (2025 draft: Sat, Aug 30, 6:15 PM MDT)
 - **Draft Order:** Determined by the Many Mile (see Section 10)
 - **Draft Pick Trading:** Allowed
 - **Post-Draft Undrafted Players:** Free agents (no automatic waivers)

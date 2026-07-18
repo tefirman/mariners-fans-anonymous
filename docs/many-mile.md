@@ -3,7 +3,7 @@
 The annual Beer Mile run by the previous season's loser's-bracket finalist. See [§10 of the by-laws](bylaws.md#10-losers-bracket-and-the-many-mile) for the full rules.
 
 !!! note "Records wanted"
-    This is a placeholder — Many Mile history is being collected. If you remember a year's runner, time, substitution choices, or who picked first in the resulting draft, send the details to the commissioner.
+    Runners are recorded below. Times, substitution choices, and closest guess (pick #1) are still being collected — if you remember those details for any year, send them to the commissioner.
 
 ## Roll Call
 
@@ -11,7 +11,14 @@ Year is the year the race was run (i.e., the loser of the **2024** loser's brack
 
 | Race Year | Many Mile Champion | Time | Substitutions | Closest Guess (Pick #1) | Notes |
 |-----------|--------------------|------|---------------|-------------------------|-------|
-| _TBD_ | _TBD_ | _TBD_ | _TBD_ | _TBD_ | _TBD_ |
+| 2018 | Aaron Many | _TBD_ | _TBD_ | _TBD_ | _TBD_ |
+| 2019 | Aaron Many | _TBD_ | _TBD_ | _TBD_ | _TBD_ |
+| 2020 | Marc Gordon | _TBD_ | _TBD_ | _TBD_ | _TBD_ |
+| 2021 | Luke Kartes | _TBD_ | _TBD_ | _TBD_ | _TBD_ |
+| 2022 | Trevor Wood | _TBD_ | _TBD_ | _TBD_ | _TBD_ |
+| 2023 | AJ Fraiman | _TBD_ | _TBD_ | _TBD_ | _TBD_ |
+| 2024 | Luke Kartes | _TBD_ | _TBD_ | _TBD_ | _TBD_ |
+| 2025 | Trevor Wood | _TBD_ | _TBD_ | _TBD_ | _TBD_ |
 
 ## Records
 
