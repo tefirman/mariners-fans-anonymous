@@ -8,7 +8,7 @@ A running ledger of every league finalist since the 2003 inaugural season.
 |------|-----------|-----------|-----------|
 | 2025 | AJ Fraiman | Drew Sutton | Aaron Many |
 | 2024 | AJ Fraiman | Kyle Stokes | Drew Sutton |
-| 2023 | Connor Parish | Marc Gordon | Aaron Many |
+| 2023 | Connor Parrish | Marc Gordon | Aaron Many |
 | 2022 | Tyler Teton | Taylor Firman | Kyle Stokes |
 | 2021 | Kyle Stokes | David Dehart | Trevor Wood |
 | 2020 | AJ Fraiman | Luke Kartes | Drew Sutton |
@@ -16,7 +16,7 @@ A running ledger of every league finalist since the 2003 inaugural season.
 | 2018 | Tyler Teton | Drew Sutton | Tyler Teton |
 | 2017 | Kyle Stokes | Tyler Teton | AJ Fraiman |
 | 2016 | Marc Gordon | Tyler Teton | AJ Fraiman |
-| 2015 | Kyle Stokes | Connor Parish | David Dehart |
+| 2015 | Kyle Stokes | Connor Parrish | David Dehart |
 | 2014 | Marc Gordon | Kyle Stokes | Taylor Firman |
 | 2013 | Taylor Firman | AJ Fraiman | Aaron Many |
 | 2012 | Taylor Firman | Luke Kartes | Marc Gordon |
@@ -43,7 +43,7 @@ Counting championships by manager:
 | 2 | Marc Gordon |
 | 2 | Tyler Teton |
 | 2 | Warren Wood |
-| 1 | Connor Parish, Samuel Sturza, Trevor Wood |
+| 1 | Connor Parrish, Samuel Sturza, Trevor Wood |
 
 ---
 
