@@ -28,4 +28,313 @@ Managers who have moved on from the league.
 | Warren Wood | 2 |
 | Samuel Sturza | 1 |
 | Rich/Joel Firman | 0 |
-| Connor O'Brien | 0 |
+
+## Head-to-Head Records
+
+Regular-season matchups only, 2010&ndash;present, current roster. Each cell is the row manager's win % against that column's manager &mdash; hover (or tap) a cell for the exact record.
+
+<div class="mfa-h2h" markdown="0">
+<div class="mfa-h2h-scroll">
+<table class="mfa-h2h-table" id="mfa-h2h-table"></table>
+</div>
+<div class="mfa-h2h-legend">
+<span>0% (column dominates)</span>
+<div class="mfa-h2h-ramp" role="img" aria-label="Diverging color scale from gold at 0 percent through neutral at 50 percent to teal at 100 percent"></div>
+<span>100% (row dominates)</span>
+</div>
+</div>
+
+## Career Regular-Season Record
+
+2010&ndash;present, sorted by win percentage.
+
+| Manager | Wins | Losses | Win % |
+|---|---:|---:|---:|
+| Kyle Stokes | 138 | 81 | 63.0% |
+| Tyler Teton | 125 | 95 | 56.8% |
+| AJ Fraiman | 120 | 102 | 54.1% |
+| Connor Parish | 115 | 105 | 52.3% |
+| David Dehart | 79 | 73 | 52.0% |
+| Drew Sutton | 111 | 110 | 50.2% |
+| Marc Gordon | 109 | 112 | 49.3% |
+| Taylor Firman | 107 | 113 | 48.6% |
+| Mac Brooks | 67 | 84 | 44.4% |
+| Aaron Many | 97 | 122 | 44.3% |
+| Luke Kartes | 96 | 126 | 43.2% |
+| Trevor Wood | 90 | 131 | 40.7% |
+
+## Hall of Records
+
+Regular-season games only, 2010&ndash;present.
+
+**Highest single-game score**
+
+| Manager | Points | When |
+|---|---:|---|
+| AJ Fraiman | 167.97 | Wk 8, 2025 |
+| Tyler Teton | 162.50 | Wk 8, 2019 |
+| Taylor Firman | 160.00 | Wk 13, 2013 |
+| Drew Sutton | 159.97 | Wk 5, 2021 |
+| Connor Parish | 159.54 | Wk 5, 2019 |
+
+**Lowest single-game score**
+
+| Manager | Points | When |
+|---|---:|---|
+| Taylor Firman | 33.00 | Wk 7, 2010 |
+| Taylor Firman | 34.00 | Wk 13, 2010 |
+| Trevor Wood | 39.00 | Wk 6, 2016 |
+| Connor Parish | 41.94 | Wk 13, 2022 |
+| Trevor Wood | 42.74 | Wk 13, 2022 |
+
+**Highest season point total**
+
+| Manager | Points | Season |
+|---|---:|---|
+| Tyler Teton | 1621.00 | 2018 |
+| Kyle Stokes | 1576.32 | 2021 |
+| AJ Fraiman | 1576.10 | 2025 |
+| Luke Kartes | 1555.32 | 2020 |
+| Tyler Teton | 1526.21 | 2025 |
+
+**Lowest season point total**
+
+| Manager | Points | Season |
+|---|---:|---|
+| Connor Parish | 848.00 | 2017 |
+| Aaron Many | 1000.00 | 2017 |
+| Luke Kartes | 1046.00 | 2016 |
+| Trevor Wood | 1067.54 | 2022 |
+| Trevor Wood | 1087.77 | 2020 |
+
+**Biggest blowouts**
+
+| Result | Score | When |
+|---|---:|---|
+| Connor Parish def. Drew Sutton | 159.54&ndash;57.70 (+101.84) | Wk 5, 2019 |
+| Mac Brooks def. Connor Parish | 149.18&ndash;62.50 (+86.68) | Wk 8, 2019 |
+| Tyler Teton def. Kyle Stokes | 145.00&ndash;60.00 (+85.00) | Wk 1, 2016 |
+| Luke Kartes def. Tyler Teton | 154.42&ndash;70.22 (+84.20) | Wk 12, 2020 |
+| Marc Gordon def. Mac Brooks | 153.00&ndash;71.00 (+82.00) | Wk 7, 2016 |
+
+**Closest finishes**
+
+| Result | Score | When |
+|---|---:|---|
+| Trevor Wood def. Drew Sutton | 86.94&ndash;86.92 (0.02) | Wk 11, 2019 |
+| Connor Parish def. Aaron Many | 85.98&ndash;85.96 (0.02) | Wk 5, 2023 |
+| Connor Parish def. Trevor Wood | 106.22&ndash;106.18 (0.04) | Wk 1, 2021 |
+| Connor Parish def. Taylor Firman | 108.68&ndash;108.64 (0.04) | Wk 4, 2020 |
+| Trevor Wood def. Marc Gordon | 79.36&ndash;79.23 (0.13) | Wk 11, 2022 |
+
+<style>
+.mfa-h2h-scroll { overflow-x: auto; }
+.mfa-h2h-table {
+  border-collapse: separate;
+  border-spacing: 2px;
+  font-size: 0.76rem;
+  margin: 0 auto;
+  font-family: 'Work Sans', sans-serif;
+}
+.mfa-h2h-table th, .mfa-h2h-table td { text-align: center; vertical-align: middle; }
+.mfa-h2h-table th.mfa-corner { background: transparent; }
+.mfa-h2h-table th.mfa-col-head {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  height: 160px;
+  padding: 6px 2px;
+  font-weight: 600;
+  color: var(--mfa-muted);
+  white-space: nowrap;
+  overflow: visible;
+}
+.mfa-h2h-table th.mfa-row-head {
+  text-align: right;
+  padding-right: 10px;
+  font-weight: 600;
+  color: var(--mfa-muted);
+  white-space: nowrap;
+  min-width: 96px;
+}
+.mfa-h2h-table td.mfa-cell {
+  width: 54px;
+  height: 42px;
+  border-radius: 4px;
+  font-variant-numeric: tabular-nums;
+  font-weight: 600;
+  font-size: 0.8rem;
+  outline: none;
+  cursor: default;
+}
+.mfa-h2h-table td.mfa-cell:focus-visible,
+.mfa-h2h-table td.mfa-cell:hover {
+  outline: 2px solid var(--mfa-text);
+  outline-offset: -2px;
+}
+.mfa-h2h-table td.mfa-diag { background: var(--mfa-surface-alt); }
+.mfa-h2h-legend {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 14px;
+  font-size: 0.74rem;
+  color: var(--mfa-muted);
+}
+.mfa-h2h-ramp {
+  flex: 1;
+  max-width: 320px;
+  height: 10px;
+  border-radius: 5px;
+  background: linear-gradient(to right,
+    #7A5B1F, #B8923F, #D2B36E, #E9DBBC,
+    var(--mfa-surface-alt),
+    #B9DAD6, #7FC2BB, #3F9A92, #124E49);
+}
+#mfa-h2h-tooltip {
+  position: fixed;
+  pointer-events: none;
+  background: var(--mfa-surface);
+  border: 1px solid var(--mfa-border);
+  border-radius: 8px;
+  padding: 9px 11px;
+  font-size: 0.8rem;
+  font-family: 'Work Sans', sans-serif;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.18);
+  opacity: 0;
+  transition: opacity 0.08s ease;
+  z-index: 20;
+  max-width: 220px;
+  color: var(--mfa-text);
+}
+#mfa-h2h-tooltip.show { opacity: 1; }
+#mfa-h2h-tooltip .mfa-t-value { font-weight: 700; font-size: 0.92rem; }
+#mfa-h2h-tooltip .mfa-t-sub { color: var(--mfa-muted); margin-top: 2px; }
+</style>
+
+<div id="mfa-h2h-tooltip" role="tooltip"></div>
+
+<script>
+(function() {
+  var DATA = {"managers": ["Kyle Stokes", "Tyler Teton", "AJ Fraiman", "Connor Parish", "David Dehart", "Drew Sutton", "Marc Gordon", "Taylor Firman", "Mac Brooks", "Aaron Many", "Luke Kartes", "Trevor Wood"], "career": [{"manager": "Kyle Stokes", "wins": 138, "losses": 81, "win_pct": 63.0}, {"manager": "Tyler Teton", "wins": 125, "losses": 95, "win_pct": 56.8}, {"manager": "AJ Fraiman", "wins": 120, "losses": 102, "win_pct": 54.1}, {"manager": "Connor Parish", "wins": 115, "losses": 105, "win_pct": 52.3}, {"manager": "David Dehart", "wins": 79, "losses": 73, "win_pct": 52.0}, {"manager": "Drew Sutton", "wins": 111, "losses": 110, "win_pct": 50.2}, {"manager": "Marc Gordon", "wins": 109, "losses": 112, "win_pct": 49.3}, {"manager": "Taylor Firman", "wins": 107, "losses": 113, "win_pct": 48.6}, {"manager": "Mac Brooks", "wins": 67, "losses": 84, "win_pct": 44.4}, {"manager": "Aaron Many", "wins": 97, "losses": 122, "win_pct": 44.3}, {"manager": "Luke Kartes", "wins": 96, "losses": 126, "win_pct": 43.2}, {"manager": "Trevor Wood", "wins": 90, "losses": 131, "win_pct": 40.7}], "cells": [{"row": "Kyle Stokes", "col": "Tyler Teton", "wins": 12, "losses": 11}, {"row": "Kyle Stokes", "col": "AJ Fraiman", "wins": 11, "losses": 10}, {"row": "Kyle Stokes", "col": "Connor Parish", "wins": 15, "losses": 10}, {"row": "Kyle Stokes", "col": "David Dehart", "wins": 9, "losses": 2}, {"row": "Kyle Stokes", "col": "Drew Sutton", "wins": 12, "losses": 7}, {"row": "Kyle Stokes", "col": "Marc Gordon", "wins": 12, "losses": 10}, {"row": "Kyle Stokes", "col": "Taylor Firman", "wins": 15, "losses": 7}, {"row": "Kyle Stokes", "col": "Mac Brooks", "wins": 9, "losses": 4}, {"row": "Kyle Stokes", "col": "Aaron Many", "wins": 14, "losses": 8}, {"row": "Kyle Stokes", "col": "Luke Kartes", "wins": 14, "losses": 8}, {"row": "Kyle Stokes", "col": "Trevor Wood", "wins": 15, "losses": 4}, {"row": "Tyler Teton", "col": "Kyle Stokes", "wins": 11, "losses": 12}, {"row": "Tyler Teton", "col": "AJ Fraiman", "wins": 13, "losses": 8}, {"row": "Tyler Teton", "col": "Connor Parish", "wins": 10, "losses": 11}, {"row": "Tyler Teton", "col": "David Dehart", "wins": 8, "losses": 5}, {"row": "Tyler Teton", "col": "Drew Sutton", "wins": 12, "losses": 10}, {"row": "Tyler Teton", "col": "Marc Gordon", "wins": 16, "losses": 5}, {"row": "Tyler Teton", "col": "Taylor Firman", "wins": 10, "losses": 11}, {"row": "Tyler Teton", "col": "Mac Brooks", "wins": 7, "losses": 7}, {"row": "Tyler Teton", "col": "Aaron Many", "wins": 11, "losses": 11}, {"row": "Tyler Teton", "col": "Luke Kartes", "wins": 12, "losses": 10}, {"row": "Tyler Teton", "col": "Trevor Wood", "wins": 15, "losses": 5}, {"row": "AJ Fraiman", "col": "Kyle Stokes", "wins": 10, "losses": 11}, {"row": "AJ Fraiman", "col": "Tyler Teton", "wins": 8, "losses": 13}, {"row": "AJ Fraiman", "col": "Connor Parish", "wins": 13, "losses": 10}, {"row": "AJ Fraiman", "col": "David Dehart", "wins": 8, "losses": 6}, {"row": "AJ Fraiman", "col": "Drew Sutton", "wins": 14, "losses": 8}, {"row": "AJ Fraiman", "col": "Marc Gordon", "wins": 11, "losses": 10}, {"row": "AJ Fraiman", "col": "Taylor Firman", "wins": 12, "losses": 9}, {"row": "AJ Fraiman", "col": "Mac Brooks", "wins": 9, "losses": 5}, {"row": "AJ Fraiman", "col": "Aaron Many", "wins": 13, "losses": 8}, {"row": "AJ Fraiman", "col": "Luke Kartes", "wins": 12, "losses": 12}, {"row": "AJ Fraiman", "col": "Trevor Wood", "wins": 10, "losses": 10}, {"row": "Connor Parish", "col": "Kyle Stokes", "wins": 10, "losses": 15}, {"row": "Connor Parish", "col": "Tyler Teton", "wins": 11, "losses": 10}, {"row": "Connor Parish", "col": "AJ Fraiman", "wins": 10, "losses": 13}, {"row": "Connor Parish", "col": "David Dehart", "wins": 4, "losses": 11}, {"row": "Connor Parish", "col": "Drew Sutton", "wins": 12, "losses": 10}, {"row": "Connor Parish", "col": "Marc Gordon", "wins": 10, "losses": 10}, {"row": "Connor Parish", "col": "Taylor Firman", "wins": 10, "losses": 8}, {"row": "Connor Parish", "col": "Mac Brooks", "wins": 9, "losses": 5}, {"row": "Connor Parish", "col": "Aaron Many", "wins": 14, "losses": 8}, {"row": "Connor Parish", "col": "Luke Kartes", "wins": 11, "losses": 6}, {"row": "Connor Parish", "col": "Trevor Wood", "wins": 14, "losses": 9}, {"row": "David Dehart", "col": "Kyle Stokes", "wins": 2, "losses": 9}, {"row": "David Dehart", "col": "Tyler Teton", "wins": 5, "losses": 8}, {"row": "David Dehart", "col": "AJ Fraiman", "wins": 6, "losses": 8}, {"row": "David Dehart", "col": "Connor Parish", "wins": 11, "losses": 4}, {"row": "David Dehart", "col": "Drew Sutton", "wins": 7, "losses": 7}, {"row": "David Dehart", "col": "Marc Gordon", "wins": 6, "losses": 11}, {"row": "David Dehart", "col": "Taylor Firman", "wins": 11, "losses": 3}, {"row": "David Dehart", "col": "Mac Brooks", "wins": 6, "losses": 8}, {"row": "David Dehart", "col": "Aaron Many", "wins": 9, "losses": 4}, {"row": "David Dehart", "col": "Luke Kartes", "wins": 9, "losses": 6}, {"row": "David Dehart", "col": "Trevor Wood", "wins": 7, "losses": 5}, {"row": "Drew Sutton", "col": "Kyle Stokes", "wins": 7, "losses": 12}, {"row": "Drew Sutton", "col": "Tyler Teton", "wins": 10, "losses": 12}, {"row": "Drew Sutton", "col": "AJ Fraiman", "wins": 8, "losses": 14}, {"row": "Drew Sutton", "col": "Connor Parish", "wins": 10, "losses": 12}, {"row": "Drew Sutton", "col": "David Dehart", "wins": 7, "losses": 7}, {"row": "Drew Sutton", "col": "Marc Gordon", "wins": 10, "losses": 11}, {"row": "Drew Sutton", "col": "Taylor Firman", "wins": 11, "losses": 12}, {"row": "Drew Sutton", "col": "Mac Brooks", "wins": 9, "losses": 4}, {"row": "Drew Sutton", "col": "Aaron Many", "wins": 14, "losses": 6}, {"row": "Drew Sutton", "col": "Luke Kartes", "wins": 15, "losses": 4}, {"row": "Drew Sutton", "col": "Trevor Wood", "wins": 10, "losses": 16}, {"row": "Marc Gordon", "col": "Kyle Stokes", "wins": 10, "losses": 12}, {"row": "Marc Gordon", "col": "Tyler Teton", "wins": 5, "losses": 16}, {"row": "Marc Gordon", "col": "AJ Fraiman", "wins": 10, "losses": 11}, {"row": "Marc Gordon", "col": "Connor Parish", "wins": 10, "losses": 10}, {"row": "Marc Gordon", "col": "David Dehart", "wins": 11, "losses": 6}, {"row": "Marc Gordon", "col": "Drew Sutton", "wins": 11, "losses": 10}, {"row": "Marc Gordon", "col": "Taylor Firman", "wins": 13, "losses": 10}, {"row": "Marc Gordon", "col": "Mac Brooks", "wins": 7, "losses": 5}, {"row": "Marc Gordon", "col": "Aaron Many", "wins": 11, "losses": 11}, {"row": "Marc Gordon", "col": "Luke Kartes", "wins": 9, "losses": 12}, {"row": "Marc Gordon", "col": "Trevor Wood", "wins": 12, "losses": 9}, {"row": "Taylor Firman", "col": "Kyle Stokes", "wins": 7, "losses": 15}, {"row": "Taylor Firman", "col": "Tyler Teton", "wins": 11, "losses": 10}, {"row": "Taylor Firman", "col": "AJ Fraiman", "wins": 9, "losses": 12}, {"row": "Taylor Firman", "col": "Connor Parish", "wins": 8, "losses": 10}, {"row": "Taylor Firman", "col": "David Dehart", "wins": 3, "losses": 11}, {"row": "Taylor Firman", "col": "Drew Sutton", "wins": 12, "losses": 11}, {"row": "Taylor Firman", "col": "Marc Gordon", "wins": 10, "losses": 13}, {"row": "Taylor Firman", "col": "Mac Brooks", "wins": 7, "losses": 5}, {"row": "Taylor Firman", "col": "Aaron Many", "wins": 8, "losses": 11}, {"row": "Taylor Firman", "col": "Luke Kartes", "wins": 16, "losses": 7}, {"row": "Taylor Firman", "col": "Trevor Wood", "wins": 16, "losses": 8}, {"row": "Mac Brooks", "col": "Kyle Stokes", "wins": 4, "losses": 9}, {"row": "Mac Brooks", "col": "Tyler Teton", "wins": 7, "losses": 7}, {"row": "Mac Brooks", "col": "AJ Fraiman", "wins": 5, "losses": 9}, {"row": "Mac Brooks", "col": "Connor Parish", "wins": 5, "losses": 9}, {"row": "Mac Brooks", "col": "David Dehart", "wins": 8, "losses": 6}, {"row": "Mac Brooks", "col": "Drew Sutton", "wins": 4, "losses": 9}, {"row": "Mac Brooks", "col": "Marc Gordon", "wins": 5, "losses": 7}, {"row": "Mac Brooks", "col": "Taylor Firman", "wins": 5, "losses": 7}, {"row": "Mac Brooks", "col": "Aaron Many", "wins": 9, "losses": 7}, {"row": "Mac Brooks", "col": "Luke Kartes", "wins": 6, "losses": 10}, {"row": "Mac Brooks", "col": "Trevor Wood", "wins": 9, "losses": 4}, {"row": "Aaron Many", "col": "Kyle Stokes", "wins": 8, "losses": 14}, {"row": "Aaron Many", "col": "Tyler Teton", "wins": 11, "losses": 11}, {"row": "Aaron Many", "col": "AJ Fraiman", "wins": 8, "losses": 13}, {"row": "Aaron Many", "col": "Connor Parish", "wins": 8, "losses": 14}, {"row": "Aaron Many", "col": "David Dehart", "wins": 4, "losses": 9}, {"row": "Aaron Many", "col": "Drew Sutton", "wins": 6, "losses": 14}, {"row": "Aaron Many", "col": "Marc Gordon", "wins": 11, "losses": 11}, {"row": "Aaron Many", "col": "Taylor Firman", "wins": 11, "losses": 8}, {"row": "Aaron Many", "col": "Mac Brooks", "wins": 7, "losses": 9}, {"row": "Aaron Many", "col": "Luke Kartes", "wins": 12, "losses": 9}, {"row": "Aaron Many", "col": "Trevor Wood", "wins": 11, "losses": 10}, {"row": "Luke Kartes", "col": "Kyle Stokes", "wins": 8, "losses": 14}, {"row": "Luke Kartes", "col": "Tyler Teton", "wins": 10, "losses": 12}, {"row": "Luke Kartes", "col": "AJ Fraiman", "wins": 12, "losses": 12}, {"row": "Luke Kartes", "col": "Connor Parish", "wins": 6, "losses": 11}, {"row": "Luke Kartes", "col": "David Dehart", "wins": 6, "losses": 9}, {"row": "Luke Kartes", "col": "Drew Sutton", "wins": 4, "losses": 15}, {"row": "Luke Kartes", "col": "Marc Gordon", "wins": 12, "losses": 9}, {"row": "Luke Kartes", "col": "Taylor Firman", "wins": 7, "losses": 16}, {"row": "Luke Kartes", "col": "Mac Brooks", "wins": 10, "losses": 6}, {"row": "Luke Kartes", "col": "Aaron Many", "wins": 9, "losses": 12}, {"row": "Luke Kartes", "col": "Trevor Wood", "wins": 12, "losses": 10}, {"row": "Trevor Wood", "col": "Kyle Stokes", "wins": 4, "losses": 15}, {"row": "Trevor Wood", "col": "Tyler Teton", "wins": 5, "losses": 15}, {"row": "Trevor Wood", "col": "AJ Fraiman", "wins": 10, "losses": 10}, {"row": "Trevor Wood", "col": "Connor Parish", "wins": 9, "losses": 14}, {"row": "Trevor Wood", "col": "David Dehart", "wins": 5, "losses": 7}, {"row": "Trevor Wood", "col": "Drew Sutton", "wins": 16, "losses": 10}, {"row": "Trevor Wood", "col": "Marc Gordon", "wins": 9, "losses": 12}, {"row": "Trevor Wood", "col": "Taylor Firman", "wins": 8, "losses": 16}, {"row": "Trevor Wood", "col": "Mac Brooks", "wins": 4, "losses": 9}, {"row": "Trevor Wood", "col": "Aaron Many", "wins": 10, "losses": 11}, {"row": "Trevor Wood", "col": "Luke Kartes", "wins": 10, "losses": 12}]};
+
+  var cellMap = {};
+  DATA.cells.forEach(function(c) { cellMap[c.row + "|" + c.col] = c; });
+
+  // Diverging ramp: gold (0%) -> neutral surface-alt (50%) -> teal (100%),
+  // matching the site's mfa-gold / mfa-teal design tokens.
+  var ramp = [
+    [0, '#7A5B1F'], [12.5, '#B8923F'], [25, '#D2B36E'], [37.5, '#E9DBBC'],
+    [50, null], // resolved to --mfa-surface-alt at render time
+    [62.5, '#B9DAD6'], [75, '#7FC2BB'], [87.5, '#3F9A92'], [100, '#124E49'],
+  ];
+
+  function getVar(name) {
+    return getComputedStyle(document.documentElement).getPropertyValue(name).trim();
+  }
+  function hexToRgb(hex) {
+    hex = hex.replace('#', '');
+    return [parseInt(hex.slice(0,2),16), parseInt(hex.slice(2,4),16), parseInt(hex.slice(4,6),16)];
+  }
+  function rgbToHex(r,g,b) {
+    return '#' + [r,g,b].map(function(v){ return Math.round(v).toString(16).padStart(2,'0'); }).join('');
+  }
+  function colorForPct(pct) {
+    var midHex = getVar('--mfa-surface-alt') || '#F0EDE4';
+    var stops = ramp.map(function(s) { return [s[0], s[1] === null ? midHex : s[1]]; });
+    for (var i = 0; i < stops.length - 1; i++) {
+      var p0 = stops[i][0], c0 = stops[i][1], p1 = stops[i+1][0], c1 = stops[i+1][1];
+      if (pct >= p0 && pct <= p1) {
+        var t = (pct - p0) / (p1 - p0);
+        var rgb0 = hexToRgb(c0), rgb1 = hexToRgb(c1);
+        return rgbToHex(
+          rgb0[0] + (rgb1[0]-rgb0[0])*t,
+          rgb0[1] + (rgb1[1]-rgb0[1])*t,
+          rgb0[2] + (rgb1[2]-rgb0[2])*t
+        );
+      }
+    }
+    return stops[stops.length-1][1];
+  }
+  function textColorForPct(pct) {
+    return Math.abs(pct - 50) > 20 ? '#ffffff' : (getVar('--mfa-text') || '#1A1F26');
+  }
+  function escapeAttr(s) { return String(s).replace(/"/g, '&quot;'); }
+  function escapeHtml(s) {
+    var d = document.createElement('div');
+    d.textContent = s;
+    return d.innerHTML;
+  }
+
+  function buildHeatmap() {
+    var table = document.getElementById('mfa-h2h-table');
+    if (!table) return;
+    var managers = DATA.managers;
+    var html = '<thead><tr><th class="mfa-corner"></th>';
+    managers.forEach(function(m) { html += '<th class="mfa-col-head" scope="col">' + escapeHtml(m) + '</th>'; });
+    html += '</tr></thead><tbody>';
+
+    managers.forEach(function(rowMgr) {
+      html += '<tr><th class="mfa-row-head" scope="row">' + escapeHtml(rowMgr) + '</th>';
+      managers.forEach(function(colMgr) {
+        if (rowMgr === colMgr) { html += '<td class="mfa-cell mfa-diag"></td>'; return; }
+        var c = cellMap[rowMgr + "|" + colMgr];
+        if (!c) { html += '<td class="mfa-cell"></td>'; return; }
+        var total = c.wins + c.losses;
+        var pct = 100 * c.wins / total;
+        var bg = colorForPct(pct);
+        var fg = textColorForPct(pct);
+        html += '<td class="mfa-cell" tabindex="0" style="background:' + bg + ';color:' + fg + ';"'
+          + ' data-row="' + escapeAttr(rowMgr) + '" data-col="' + escapeAttr(colMgr) + '"'
+          + ' data-wins="' + c.wins + '" data-losses="' + c.losses + '" data-pct="' + pct.toFixed(1) + '">'
+          + pct.toFixed(0) + '%</td>';
+      });
+      html += '</tr>';
+    });
+    html += '</tbody>';
+    table.innerHTML = html;
+
+    var tooltip = document.getElementById('mfa-h2h-tooltip');
+    var cells = table.querySelectorAll('td.mfa-cell[data-row]');
+    cells.forEach(function(td) {
+      var show = function(evt) {
+        var row = td.dataset.row, col = td.dataset.col;
+        var wins = td.dataset.wins, losses = td.dataset.losses, pct = td.dataset.pct;
+        tooltip.innerHTML = '';
+        var valueEl = document.createElement('div');
+        valueEl.className = 'mfa-t-value';
+        valueEl.textContent = pct + '% win rate';
+        var subEl = document.createElement('div');
+        subEl.className = 'mfa-t-sub';
+        subEl.textContent = row + ' vs ' + col + ': ' + wins + '-' + losses;
+        tooltip.appendChild(valueEl);
+        tooltip.appendChild(subEl);
+        tooltip.classList.add('show');
+        positionTooltip(evt, tooltip);
+      };
+      td.addEventListener('pointermove', show);
+      td.addEventListener('focus', show);
+      td.addEventListener('pointerenter', show);
+      td.addEventListener('pointerleave', function() { tooltip.classList.remove('show'); });
+      td.addEventListener('blur', function() { tooltip.classList.remove('show'); });
+    });
+  }
+
+  function positionTooltip(evt, tooltip) {
+    var x = evt.clientX != null ? evt.clientX : (evt.target.getBoundingClientRect().left + evt.target.offsetWidth/2);
+    var y = evt.clientY != null ? evt.clientY : evt.target.getBoundingClientRect().top;
+    var pad = 14;
+    var left = x + pad;
+    var top = y + pad;
+    if (left + 220 > window.innerWidth) left = x - 220 - pad;
+    if (top + 80 > window.innerHeight) top = y - 80 - pad;
+    tooltip.style.left = left + 'px';
+    tooltip.style.top = top + 'px';
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', buildHeatmap);
+  } else {
+    buildHeatmap();
+  }
+})();
+</script>
