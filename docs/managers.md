@@ -4,20 +4,22 @@ The 12 managers of the Mariners Fans Anonymous league.
 
 ## Current Roster
 
-| Manager | Joined | Championships | Many Mile Appearances |
-|---------|--------|---------------|-----------------------|
-| AJ Fraiman | 2003 | 4 | _TBD_ |
-| Aaron Many | 2003 | 0 | _TBD_ |
-| Connor Parish | 2003 | 1 | _TBD_ |
-| David Dehart | 2015 | 0 | _TBD_ |
-| Drew Sutton | 2003 | 2 | _TBD_ |
-| Kyle Stokes | 2003 | 4 | _TBD_ |
-| Luke Kartes | 2003 | 0 | _TBD_ |
-| Mac Brooks | 2015 | 0 | _TBD_ |
-| Marc Gordon | 2003 | 2 | _TBD_ |
-| Taylor Firman | 2003 | 4 | _TBD_ |
-| Trevor Wood | 2003 | 1 | _TBD_ |
-| Tyler Teton | 2003 | 2 | _TBD_ |
+Regular-season record covers 2003&ndash;present, sorted by win percentage.
+
+| Manager | Joined | Championships | Many Mile Appearances | Wins | Losses | Win % |
+|---------|--------|---------------|------------------------|---:|---:|---:|
+| Kyle Stokes | 2003 | 4 | 0 | 162 | 113 | 58.9% |
+| Tyler Teton | 2003 | 2 | 0 | 159 | 117 | 57.6% |
+| David Dehart | 2015 | 0 | 0 | 79 | 73 | 52.0% |
+| AJ Fraiman | 2003 | 4 | 1 | 165 | 155 | 51.6% |
+| Taylor Firman | 2003 | 4 | 0 | 155 | 148 | 51.2% |
+| Drew Sutton | 2003 | 2 | 0 | 148 | 143 | 50.9% |
+| Connor Parish | 2003 | 1 | 0 | 139 | 137 | 50.4% |
+| Marc Gordon | 2003 | 2 | 1 | 158 | 160 | 49.7% |
+| Aaron Many | 2003 | 0 | 2 | 143 | 173 | 45.3% |
+| Mac Brooks | 2015 | 0 | 0 | 67 | 84 | 44.4% |
+| Trevor Wood | 2003 | 1 | 2 | 141 | 178 | 44.2% |
+| Luke Kartes | 2003 | 0 | 2 | 101 | 134 | 43.0% |
 
 ## Past Managers
 
@@ -43,25 +45,6 @@ Regular-season matchups only, 2003&ndash;present, current roster. Each cell is t
 <span>100% (row dominates)</span>
 </div>
 </div>
-
-## Career Regular-Season Record
-
-2003&ndash;present, sorted by win percentage.
-
-| Manager | Wins | Losses | Win % |
-|---|---:|---:|---:|
-| Kyle Stokes | 162 | 113 | 58.9% |
-| Tyler Teton | 159 | 117 | 57.6% |
-| David Dehart | 79 | 73 | 52.0% |
-| AJ Fraiman | 165 | 155 | 51.6% |
-| Taylor Firman | 155 | 148 | 51.2% |
-| Drew Sutton | 148 | 143 | 50.9% |
-| Connor Parish | 139 | 137 | 50.4% |
-| Marc Gordon | 158 | 160 | 49.7% |
-| Aaron Many | 143 | 173 | 45.3% |
-| Mac Brooks | 67 | 84 | 44.4% |
-| Trevor Wood | 141 | 178 | 44.2% |
-| Luke Kartes | 101 | 134 | 43.0% |
 
 ## Hall of Records
 

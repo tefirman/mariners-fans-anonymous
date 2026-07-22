@@ -546,6 +546,7 @@ body,
 
 .md-typeset__table {
   display: block;
+  overflow-x: auto;
 }
 
 .md-typeset table:not([class]) {
@@ -556,7 +557,8 @@ body,
   border-collapse: separate;
   border-spacing: 0;
   width: 100%;
-  table-layout: fixed;
+  min-width: max-content;
+  table-layout: auto;
   max-width: 100%;
 }
 
