@@ -4,22 +4,22 @@ The 12 managers of the Mariners Fans Anonymous league.
 
 ## Current Roster
 
-Regular-season record covers 2003&ndash;present, sorted by win percentage.
+Regular-season record covers 2003&ndash;present. Sorted by championships, then win percentage for ties.
 
-| Manager | Joined | Championships | Many Mile Appearances | Wins | Losses | Win % |
-|---------|--------|---------------|------------------------|---:|---:|---:|
-| Kyle Stokes | 2003 | 4 | 0 | 162 | 113 | 58.9% |
-| Tyler Teton | 2003 | 2 | 0 | 159 | 117 | 57.6% |
-| David Dehart | 2015 | 0 | 0 | 79 | 73 | 52.0% |
-| AJ Fraiman | 2003 | 4 | 1 | 165 | 155 | 51.6% |
-| Taylor Firman | 2003 | 4 | 0 | 155 | 148 | 51.2% |
-| Drew Sutton | 2003 | 2 | 0 | 148 | 143 | 50.9% |
-| Connor Parrish | 2003 | 1 | 0 | 139 | 137 | 50.4% |
-| Marc Gordon | 2003 | 2 | 1 | 158 | 160 | 49.7% |
-| Aaron Many | 2003 | 0 | 2 | 143 | 173 | 45.3% |
-| Mac Brooks | 2015 | 0 | 0 | 67 | 84 | 44.4% |
-| Trevor Wood | 2003 | 1 | 2 | 141 | 178 | 44.2% |
-| Luke Kartes | 2003 | 0 | 2 | 101 | 134 | 43.0% |
+| Manager | Joined | Wins | Losses | Win % | Championships | Many Miles |
+|---------|:------:|:----:|:------:|:-----:|:-------------:|:----------:|
+| Kyle Stokes | 2003 | 162 | 113 | 58.9% | 4 | 0 |
+| AJ Fraiman | 2003 | 165 | 155 | 51.6% | 4 | 1 |
+| Taylor Firman | 2003 | 155 | 148 | 51.2% | 4 | 0 |
+| Tyler Teton | 2003 | 159 | 117 | 57.6% | 2 | 0 |
+| Drew Sutton | 2003 | 148 | 143 | 50.9% | 2 | 0 |
+| Marc Gordon | 2003 | 158 | 160 | 49.7% | 2 | 1 |
+| Connor Parrish | 2003 | 139 | 137 | 50.4% | 1 | 0 |
+| Trevor Wood | 2003 | 141 | 178 | 44.2% | 1 | 2 |
+| David Dehart | 2015 | 79 | 73 | 52.0% | 0 | 0 |
+| Aaron Many | 2003 | 143 | 173 | 45.3% | 0 | 2 |
+| Mac Brooks | 2015 | 67 | 84 | 44.4% | 0 | 0 |
+| Luke Kartes | 2003 | 101 | 134 | 43.0% | 0 | 2 |
 
 ## Past Managers
 
