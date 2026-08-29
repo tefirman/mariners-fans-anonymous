@@ -1,6 +1,6 @@
 # Mariners Fans Anonymous — League By-Laws
 
-**Status:** Draft for league review and approval.
+**Status:** Adopted by league vote (August 2026). See [Section 14: Voting Record](#14-voting-record).
 
 ---
 
@@ -53,7 +53,7 @@ There is no dedicated TE slot; tight ends are eligible only in W/R/T flex positi
 
 ## 4. Scoring
 
-Head-to-head, fractional points, negative points enabled.
+Head-to-head, half PPR (0.5 points per reception), fractional points, negative points enabled.
 
 ### Offense
 
@@ -64,6 +64,7 @@ Head-to-head, fractional points, negative points enabled.
 | Interception Thrown           | -2 pts            |
 | Rushing Yards                 | 1 pt / 10 yds     |
 | Rushing TD                    | 6 pts             |
+| Reception                     | 0.5 pts           |
 | Receiving Yards               | 1 pt / 10 yds     |
 | Receiving TD                  | 6 pts             |
 | Return Yards                  | 1 pt / 20 yds     |
@@ -110,7 +111,7 @@ Head-to-head, fractional points, negative points enabled.
 - **Type:** Offline (in-person), snake format
 - **Date:** Not fixed; the date and location are selected each year with the goal of accommodating the most in-person attendance. Typically falls within a few weeks of the start of the season, usually mid-to-late August (2025 draft: Sat, Aug 30, 6:15 PM MDT)
 - **Draft Order:** Determined by the Many Mile (see Section 10)
-- **Draft Pick Trading:** Allowed
+- **Draft Pick Trading:** Not allowed
 - **Post-Draft Undrafted Players:** Free agents (no automatic waivers)
 
 ### Draft Penalties
@@ -133,7 +134,7 @@ Head-to-head, fractional points, negative points enabled.
 - **Trade Reject Window:** 7 days from acceptance
 - **Max Trades per Season:** No maximum
 - **Trade Deadline:** Sunday of Week 11 (November 22, 2025 for the 2025 season)
-- **Draft Pick Trades:** Current-year picks only. Future-year draft picks may **not** be traded.
+- **Draft Pick Trades:** Not allowed. Draft picks (current-year or future-year) may **not** be traded.
 - **Collusion:** The commissioner may reverse any trade believed in good faith to constitute collusion. The commissioner will not unilaterally reverse trades that are merely lopsided; veto authority is reserved for collusion or clear violations of league integrity.
 
 ## 8. Regular Season
@@ -159,7 +160,7 @@ Eliminated teams are **not** locked; managers are expected to set lineups in goo
 
 ### Champion's Honors
 
-- **Trophy:** The league champion is awarded the **Warren Wood Memorial Trophy** (so named despite Warren still being very much alive). The trophy stays with the reigning champion for the duration of the year and is returned to the league at the following season's draft for presentation to the new champion.
+- **Trophy:** The league champion is awarded the **Warren Wood Memorial Trophy** (so named despite Warren still being very much alive), a wooden champions plaque (adopted August 28, 2026, replacing the prior metal plaque). The trophy stays with the reigning champion for the duration of the year and is returned to the league at the following season's draft for presentation to the new champion.
 - **Champion's Speech:** The reigning champion delivers a speech at the next season's draft prior to the start of picks.
 
 ## 10. Loser's Bracket and the Many Mile
@@ -199,11 +200,37 @@ Before the race, every manager (including the Many Mile Champion) submits a secr
 - **Amendment Threshold:** Simple majority — 7 of 12 managers.
 - Any manager may propose an amendment. Proposed changes should be circulated to the league at least 48 hours before the rules meeting when practical.
 - Amendments take effect for the upcoming season unless otherwise specified.
+- **Re-proposal Cooldown:** If an amendment fails, a substantially similar amendment may not be proposed again until two full seasons have passed.
 
 ## 13. Disputes
 
 Disputes not resolved by these by-laws are decided by the commissioner. Any manager may appeal a commissioner ruling to a full league vote; a simple majority (7 of 12) overrides the ruling.
 
+## 14. Voting Record
+
+<div class="mfa-voting-record" markdown="1">
+
+A record of amendments proposed at each annual rules meeting and how the league voted. Amendments pass with a simple majority (7 of 12 managers).
+
+<details markdown="1">
+<summary><strong>2026 Rules Meeting</strong> — August 28, 2026</summary>
+
+| # | Amendment | For | Against | Abstain | Result |
+|---|-----------|----:|--------:|--------:|--------|
+| 1 | Adopt the website by-laws as the official league by-laws of record | 12 | 0 | 0 | **Passed** |
+| 2 | Switch scoring from standard (0 PPR) to half PPR (0.5 points per reception) | 7 | 5 | 0 | **Passed** |
+| 3 | Convert one W/R/T flex slot to a WR/TE-only flex | 5 | 7 | 0 | Failed |
+| 4 | Convert one W/R/T flex slot to a dedicated TE slot | 5 | 7 | 0 | Failed |
+| 5 | Require two full seasons to pass before re-proposing a failed amendment | 10 | 2 | 0 | **Passed** |
+| 6 | Remove kickers from the roster entirely | 5 | 7 | 0 | Failed |
+| 7 | Convert one W/R/T flex slot to a superflex (QB-eligible) | 1 | 11 | 0 | Failed |
+| 8 | Impose a "technology spending cap" limiting per-manager spending on fantasy research | 1 | 11 | 0 | Failed |
+| 9 | Replace the metal champions plaque with a wooden plaque | 12 | 0 | 0 | **Passed** |
+
+</details>
+
+</div>
+
 ---
 
-*Last updated: May 2026. Pending league approval.*
+*Last updated: August 2026. Adopted by league vote August 28, 2026.*
