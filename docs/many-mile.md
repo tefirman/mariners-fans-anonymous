@@ -18,7 +18,7 @@ The Many Mile is run the day before the next season's draft: the loser of the **
 | 2022 | 2023 | Trevor Wood | _TBD_ | _TBD_ | _TBD_ |
 | 2023 | 2024 | AJ Fraiman | _TBD_ | _TBD_ | _TBD_ |
 | 2024 | 2025 | Luke Kartes | _TBD_ | _TBD_ | _TBD_ |
-| 2025 | 2026 | Trevor Wood | 18:29 | Tyler Teton (16:22) | _TBD_ |
+| 2025 | 2026 | Trevor Wood | 18:29 | Tyler Teton (16:22) | Subbed hot-sauce chicken nuggets for the beers. Never again. |
 
 ## Records
 
