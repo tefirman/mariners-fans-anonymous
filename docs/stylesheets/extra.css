@@ -605,6 +605,70 @@ body,
   color: var(--mfa-gold);
 }
 
+/* ---------- Voting Record (By-Laws §14) ---------- */
+
+/* The by-laws "card" is assembled by giving every bare <p>/<ul>/<h3>/table the
+   same surface bg + L/R borders so consecutive elements read as one box. The
+   wrapper div needs that same treatment or it reads as a gap mid-section. */
+.mfa-bylaws-content .mfa-voting-record {
+  background: var(--mfa-surface);
+  border-left: 1px solid var(--mfa-border);
+  border-right: 1px solid var(--mfa-border);
+  padding: 8px 24px;
+  margin: 0;
+}
+
+/* Inner elements are already inside the card — drop their own borders/bg/pad so
+   they don't nest a second box inside the first. */
+.mfa-bylaws-content .mfa-voting-record > p {
+  background: none;
+  border: none;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.mfa-bylaws-content .mfa-voting-record > p:first-child {
+  margin-top: 0;
+}
+
+/* Table lives inside the <details> box, not the section card — strip the
+   inherited card borders/padding from its wrappers. */
+.mfa-bylaws-content .mfa-voting-record details .md-typeset__scrollwrap,
+.mfa-bylaws-content .mfa-voting-record details .md-typeset__table {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Constrain the wide "Amendment" column so long descriptions wrap instead of
+   forcing the table off the page. Columns: # | Amendment | For | Against |
+   Abstain | Result */
+.mfa-voting-record table td:nth-child(2),
+.mfa-voting-record table th:nth-child(2) {
+  white-space: normal;
+  min-width: 14rem;
+  max-width: 22rem;
+}
+
+.mfa-voting-record table td:first-child,
+.mfa-voting-record table th:first-child {
+  width: 2rem;
+  text-align: right;
+}
+
+.mfa-voting-record table td:nth-child(n+3),
+.mfa-voting-record table th:nth-child(n+3) {
+  white-space: nowrap;
+  text-align: center;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Let the table use the available width rather than its intrinsic max-content. */
+.mfa-voting-record .md-typeset__table table {
+  min-width: 0;
+}
+
 /* ---------- Admonition ("Records Wanted") — dashed gold, no left bar ---------- */
 
 .md-typeset .admonition,

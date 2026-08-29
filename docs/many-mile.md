@@ -7,18 +7,18 @@ The annual Beer Mile run by the previous season's loser's-bracket finalist. See 
 
 ## Roll Call
 
-Year is the year the race was run (i.e., the loser of the **2024** loser's bracket runs the Many Mile in **August 2025**, the day before the 2025 draft).
+The Many Mile is run the day before the next season's draft: the loser of the **2024** loser's bracket runs in **August 2025**, the day before the 2025 draft. "Season Lost" is the season whose loser's bracket that runner finished last in; "Race Year" is the year they actually ran.
 
-| Race Year | Many Mile Champion | Time | Closest Guess | Notes |
-|-----------|--------------------|------|---------------|-------------------------|
-| 2018 | Aaron Many | _TBD_ | _TBD_ | _TBD_ |
-| 2019 | Aaron Many | _TBD_ | _TBD_ | _TBD_ |
-| 2020 | Marc Gordon | _TBD_ | _TBD_ | _TBD_ |
-| 2021 | Luke Kartes | _TBD_ | _TBD_ | _TBD_ |
-| 2022 | Trevor Wood | _TBD_ | _TBD_ | _TBD_ |
-| 2023 | AJ Fraiman | _TBD_ | _TBD_ | _TBD_ |
-| 2024 | Luke Kartes | _TBD_ | _TBD_ | _TBD_ |
-| 2025 | Trevor Wood | _TBD_ | _TBD_ | _TBD_ |
+| Season Lost | Race Year | Many Mile Champion | Time | Closest Guess | Notes |
+|-------------|-----------|--------------------|------|---------------|-------------------------|
+| 2018 | 2019 | Aaron Many | _TBD_ | _TBD_ | _TBD_ |
+| 2019 | 2020 | Aaron Many | _TBD_ | _TBD_ | _TBD_ |
+| 2020 | 2021 | Marc Gordon | _TBD_ | _TBD_ | _TBD_ |
+| 2021 | 2022 | Luke Kartes | _TBD_ | _TBD_ | _TBD_ |
+| 2022 | 2023 | Trevor Wood | _TBD_ | _TBD_ | _TBD_ |
+| 2023 | 2024 | AJ Fraiman | _TBD_ | _TBD_ | _TBD_ |
+| 2024 | 2025 | Luke Kartes | _TBD_ | _TBD_ | _TBD_ |
+| 2025 | 2026 | Trevor Wood | 18:29 | Tyler Teton (16:22) | Subbed hot-sauce chicken nuggets for the beers. Never again. |
 
 ## Records
 
