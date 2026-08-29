@@ -1,6 +1,6 @@
 # Mariners Fans Anonymous — League By-Laws
 
-**Status:** Adopted by league vote (August 2026). See [Section 14: Voting Record](#14-voting-record).
+**Status:** Adopted by league vote (August 2026). See [Section 15: Voting Record](#15-voting-record).
 
 ---
 
@@ -194,7 +194,14 @@ Before the race, every manager (including the Many Mile Champion) submits a secr
 - **Authority:** Trade review, settings administration, dispute resolution, and any decisions not explicitly governed by these by-laws.
 - **Succession:** If the commissioner steps down or is unable to serve, a new commissioner will be elected by simple majority vote of the league.
 
-## 12. Rule Changes and Amendments
+## 12. League Historian
+
+- **Current Historian:** Taylor Firman
+- **Responsibilities:** Maintaining the league website, keeping the by-laws current with league votes, and recording league history and records (champions, the Many Mile, head-to-head results, and the voting record).
+- **Authority:** The Historian keeps the record; they do not rule on disputes or league settings. Corrections of fact may be made directly; substantive by-law changes still require a league vote per Section 13.
+- **Succession:** If the Historian steps down or is unable to serve, a new Historian will be elected by simple majority vote of the league.
+
+## 13. Rule Changes and Amendments
 
 - Rule changes are discussed and voted on at the **annual rules meeting**, held the night before the draft.
 - **Amendment Threshold:** Simple majority — 7 of 12 managers.
@@ -202,11 +209,11 @@ Before the race, every manager (including the Many Mile Champion) submits a secr
 - Amendments take effect for the upcoming season unless otherwise specified.
 - **Re-proposal Cooldown:** If an amendment fails, a substantially similar amendment may not be proposed again until two full seasons have passed.
 
-## 13. Disputes
+## 14. Disputes
 
 Disputes not resolved by these by-laws are decided by the commissioner. Any manager may appeal a commissioner ruling to a full league vote; a simple majority (7 of 12) overrides the ruling.
 
-## 14. Voting Record
+## 15. Voting Record
 
 <div class="mfa-voting-record" markdown="1">
 
@@ -226,6 +233,7 @@ A record of amendments proposed at each annual rules meeting and how the league 
 | 7 | Convert one W/R/T flex slot to a superflex (QB-eligible) | 1 | 11 | 0 | Failed |
 | 8 | Impose a "technology spending cap" limiting per-manager spending on fantasy research | 1 | 11 | 0 | Failed |
 | 9 | Replace the metal champions plaque with a wooden plaque | 12 | 0 | 0 | **Passed** |
+| 10 | Establish the League Historian office and elect Taylor Firman | 11 | 0 | 1 | **Passed** |
 
 </details>
 
